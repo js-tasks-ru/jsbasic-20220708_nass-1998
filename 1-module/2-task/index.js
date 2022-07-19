@@ -11,8 +11,8 @@ function print(text) {
  */
 function isValid(name) {
   if (name && name.length >= 4 && name.indexOf(' ') === -1) {
-    return true;
-  } return false;
+    return true
+  } return false
 }
 
 function sayHello() {
